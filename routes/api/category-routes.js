@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
       include: [{ model: Product}],
     });
   // be sure to include its associated Products
-  res.status(200).json(categoryData);
+  res.status(200).json(Category);
   } catch (err) {
     res.status(500).json(err);
   }
