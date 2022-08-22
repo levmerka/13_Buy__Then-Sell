@@ -4,6 +4,8 @@
 ### Github: https://github.com/levmerka/13_Buy__Then-Sell.git
 ### Walkthrough: https://drive.google.com/file/d/11Ss_fdIPP7iQsa911T2CnoPzMRsaI6Rz/view
 
+https://drive.google.com/file/d/14N6n7r1l6u9gL0WOJ22VPwnydHMqEHAc/view
+
 ## Table of Contents:
 
 - [Description](#description)
