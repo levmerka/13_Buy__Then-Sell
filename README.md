@@ -1,7 +1,8 @@
 # 13 BUY! Well, then SELL!
 ### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
+### Github: https://github.com/levmerka/13_Buy__Then-Sell.git
+### Walkthrough: https://drive.google.com/file/d/11Ss_fdIPP7iQsa911T2CnoPzMRsaI6Rz/view
 
 ## Table of Contents:
 
@@ -9,22 +10,28 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Description
 
-
+An application that allows you to view and update a mock e-commerce database 
 
   <img src="" alt="" />
 
 ## Installation
-
+uses:
+npm 
+express
+sequelize
+dotenv
+mySQL2
   <img src="" alt="" />
 
 ## Usage
 
-use free on heroku! : 
+free to use 
+
+Running the 
 
   <img src="" alt="" />
 
@@ -32,12 +39,9 @@ use free on heroku! :
 
 ## Contributing
 
+AskBCS
+UT Austin Source Code
 
-
-## Tests
-
-
-  <img src="" alt="" />
 
 ## Questions?
 

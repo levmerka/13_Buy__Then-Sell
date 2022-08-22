@@ -14,23 +14,35 @@ Category.hasMany(Product, {
   foreignKey: 'category_id',
   onDelete:'CASCADE'
 });
+// // Products belongToMany Tags (through ProductTag)
+// Product.belongsToMany(Tag, {
+//   through:{
+//       model: ProductTag,
+//       unique:false
+//       },
+      
+//       as:'tag_on_product'
+// });
+// // Tags belongToMany Products (through ProductTag)
+// Tag.belongsToMany(Product, {
+//   through:{
+//       model: ProductTag,
+//       unique:false
+//       },
+      
+//       as:'product_with_tag'
+// });
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
-  through:{
-      model: ProductTag,
-      unique:false
-      },
-      
-      as:'tag_on_product'
+  through: ProductTag,
+  // as: 'product_tags',
+  foreignKey: "product_id",
 });
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
-  through:{
-      model: ProductTag,
-      unique:false
-      },
-      
-      as:'product_with_tag'
+  through: ProductTag,
+  // as: 'product_tags',
+  foreignKey: "tag_id",
 });
 
 module.exports = {
